@@ -2,26 +2,22 @@
 body, p {
     margin: 0;
     padding: 0;
-    background-color: black;
-    
 }
 
 body {
+    background-color: black;
     background-image: url('manager.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Optional: Keeps the background fixed */
 }
 
-
 /* Style the h1 element */
 h1 {
-    background: white;
-    background-clip: text;
-    color: transparent;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    color: black; /* Text color */
     font-weight: bold;
-    font-size: 20px;
+    font-size: 36px;
     text-align: center;
-
+    padding: 20px;
 }
-
